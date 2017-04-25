@@ -51,7 +51,6 @@ module.exports = class extends Generator {
         exportComponents,
       }
     );
-    return;
     this.fs.copyTpl(
       this.templatePath('index.js'),
       this.destinationPath(`src/components/${this.props.name}/index.js`),
