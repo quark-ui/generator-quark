@@ -1,0 +1,13 @@
+{
+  "name": "generator-quark",
+  "version": "1.0.0",
+  "description": "generator for quark-ui's component development",
+  "files": [
+    "generators"
+  ],
+  "author": "ryan.bian",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^1.0.0"
+  }
+}
