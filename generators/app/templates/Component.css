@@ -2,8 +2,7 @@
  * <%= compName %> Style
  * @author <%= author %>
  */
-@value theme: '../../styles/theme.css';
-@value brand-primary from theme;
+@import "../src/styles/theme.css";
 
 .<%= name %> {
 
