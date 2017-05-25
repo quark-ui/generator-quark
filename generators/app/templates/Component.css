@@ -2,8 +2,6 @@
  * <%= compName %> Style
  * @author <%= author %>
  */
-@import "../../styles/theme.css";
-
 .<%= name %> {
 
 }
