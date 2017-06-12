@@ -18,6 +18,16 @@ module.exports = class extends Generator {
       },
       {
         type    : 'input',
+        name    : 'email',
+        message : 'Your email',
+        store   : true,
+        validate: (value) => {
+          if (value) return true;
+          return 'your email address must be provided!';
+        }
+      },
+      {
+        type    : 'input',
         name    : 'name',
         message : 'Your component name',
         default : 'newComponent',
