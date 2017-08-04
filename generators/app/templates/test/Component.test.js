@@ -1,5 +1,5 @@
 /**
- * <%= compName %> Component
+ * <%= compName %> Component.tests
  * @author <%= author %>
  */
 import React from 'react';
