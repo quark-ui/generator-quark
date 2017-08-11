@@ -1,6 +1,6 @@
 {
   "name": "generator-quarkui",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "generator for quark-ui's component development",
   "files": [
     "generators"
